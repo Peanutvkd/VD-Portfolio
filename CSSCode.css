@@ -341,6 +341,9 @@ body{
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
 }
 
 .row .right {
@@ -387,6 +390,9 @@ row .right .content p{
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
 }
 }
 /*projects*/ 
@@ -537,10 +543,16 @@ padding-top: 20px;
 					padding: 12px 16px;
 					background-color: #F3F3F3;
 					transition: 0.4s;
+					-webkit-appearance: none;
+       					-moz-appearance: none;
+        				appearance: none;
 
 					&:focus {
 						box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 						background-color: #FFF;
+					-webkit-appearance: none;
+       					-moz-appearance: none;
+        				appearance: none;
 					}
 				}
 
@@ -566,9 +578,14 @@ padding-top: 20px;
 					color: #FFF;
 					cursor: pointer;
 					transition: 0.4s;
-
+					-webkit-appearance: none;
+       					-moz-appearance: none;
+        				appearance: none;
 					&:hover {
 						background-color: #9B75D7;
+					-webkit-appearance: none;
+       					-moz-appearance: none;
+        				appearance: none;
 					}
 				}
 			}
