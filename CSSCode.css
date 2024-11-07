@@ -547,12 +547,13 @@ padding-top: 20px;
 }
 
 .section-contact {
-	min-height: 100vh;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-image: linear-gradient(175deg, white 50%, rgba(0, 172, 193, 1) 50%, rgba(84, 58, 183, 1));
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(175deg, white 50%, rgba(0, 172, 193, 1) 50%, rgba(84, 58, 183, 1));
+}
 
-	.section-contact .container4 {
+.section-contact .container4 {
   display: grid;
   max-width: 1280px;
   margin: 0 auto;
@@ -574,96 +575,93 @@ padding-top: 20px;
   }
 }
 
-		h1 {
-			color: #004274;
-			font-size: 36px;
-			text-align: center;
-			margin-bottom: 16px;
-		}
+.section-contact .container4 h1 {
+  color: #004274;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 16px;
+}
 
-		p {
-			color: black;
-			font-size: 18px;
-			line-height: 1.5;
-			margin-bottom: 32px;
-      text-align: center;
-		}
+.section-contact .container4 p {
+  color: black;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  text-align: center;
+}
 
-		form {
-			display: grid;
-			grid-template-columns: 1fr;
-			grid-gap: 16px;
-			background-color: #9AD0FF;
-			padding: 32px;
-			border-radius: 16px;
-			box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+.section-contact .container4 form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  background-color: #9AD0FF;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
 
-			@media (min-width: 768px) {
-            display: grid;
-				grid-template-columns: repeat(2, 1fr);
-			}
+@media (min-width: 768px) {
+  .section-contact .container4 form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
-			.form-group {
-     display: grid;
-				&.full {
-					grid-column: 1 / -1;
-				}
+.section-contact .container4 form .form-group {
+  display: grid;
+}
 
-				label {
-					display: block;
-					margin-bottom: 5px;
-					color: black;
-					font-size: 14px;
-				}
+.section-contact .container4 form .form-group.full {
+  grid-column: 1 / -1;
+}
 
-				.form-element {
-					appearance: none;
-					outline: none;
-					border: none;
+.section-contact .container4 form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 14px;
+}
 
-					display: block;
-					width: 100%;
+.section-contact .container4 form .form-group .form-element {
+  appearance: none;
+  outline: none;
+  border: none;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  padding: 12px 16px;
+  background-color: #F3F3F3;
+  transition: 0.4s;
+}
 
-					border-radius: 8px;
-					padding: 12px 16px;
-					background-color: #F3F3F3;
-					transition: 0.4s;
+.section-contact .container4 form .form-group .form-element:focus {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  background-color: #FFF;
+}
 
-					&:focus {
-						box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
-						background-color: #FFF;
-					}
-				}
+.section-contact .container4 form .form-group textarea {
+  resize: none;
+  min-height: 100px;
+}
 
-				textarea {
-					resize: none;
-					min-height: 100px;
-				}
-			}
+.section-contact .container4 form .submit-group {
+  grid-column: 1 / -1;
+  text-align: right;
+}
 
-			.submit-group {
-            
-				grid-column: 1 / -1;
-				text-align: right;
+.section-contact .container4 form .submit-group button[type="submit"] {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 12px 16px;
+  background-color: #004274;
+  border-radius: 8px;
+  color: #FFF;
+  cursor: pointer;
+  transition: 0.4s;
+}
 
-				button[type="submit"] {
-					appearance: none;
-					border: none;
-					outline: none;
-					background: none;
-
-					padding: 12px 16px;
-					background-color: #004274;
-					border-radius: 8px;
-					color: #FFF;
-					cursor: pointer;
-					transition: 0.4s;
-
-					&:hover {
-						background-color: #9B75D7;
-					}
-				}
-			}
-		}
-	}
+.section-contact .container4 form .submit-group button[type="submit"]:hover {
+  background-color: #9B75D7;
 }
