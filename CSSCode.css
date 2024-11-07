@@ -271,8 +271,8 @@ a {
 .hire__me {
   background-color: #004274;
 }
-.hire_me a{
-  color: #ffffff;
+.hire__me a{
+  color: #9AD0FF;
 }
 
 .hire__me:hover {
@@ -290,8 +290,7 @@ a {
   background-color: #004274;
 }
 .portfolio:hover a{
-  background-color: #004274;
-  background-color: #9AD0FF;
+color: #9AD0FF;
 }
 
 @media (width < 750px) {
