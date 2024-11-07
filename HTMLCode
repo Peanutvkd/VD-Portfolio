@@ -1,0 +1,210 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSSCode.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+
+  <body>
+    <div class="header">
+      <!-- Header -->
+    <nav>
+        <div class="logo">
+            <h1>VD</h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="#about_me">About</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact_me">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+      <!--Content before waves-->
+      <div class="inner-header flex">
+        
+      </div>
+      <!--profile title-->
+      
+      <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle" id="#title_name">HELLO</p>
+          <h1 class="title">
+            <span> I'm Veronica! </span>
+          </h1>
+          <p class="description">
+Welcome to my website. 
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">About Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+      </div>
+    </section> 
+      
+      <div>
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use id="about_me" xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
+    </div>
+    <!--Header ends-->
+   <!--About Me --> 
+    <div class = "row">
+      <div class = "left">
+      <img src="https://th.bing.com/th/id/OIP.jDsoN8jcHc8JK0TfbWvgRwHaHa?rs=1&pid=ImgDetMain">
+      </div>
+      <div class="right">
+        <div class = "content">
+        <h2> About Me </h2>
+        <p> Hello! I am aspiring engineer with an emphasis on robotics. I loves learning about 3-dimensional design and code in my spare time. I am most proud of the website I created teaching students about drivers safety in California. I also am a strong advocate for women in STEM careers, participating in my school's Girl's Build Club and Girls Who Code. In the future, I hopes to encourage women in STEM by pursuing an engineering degree. I wants to revolutionize the world of automated technology and robotics. Specifically, I hope to participate in projects related to food delivery robots and autonomous technologies. </p>
+    </div>
+    </div>
+    </div>
+    
+<!--projects-->
+    <div class = "container2">
+      <div class = "row2">
+        <div class="header2">
+          <h1 id="projects">Portfolio</h1>
+          <p>Below is a list of my projects.</p>
+        </div>
+        <div class="content2">
+          <div class="card2">
+            <img src="https://th.bing.com/th/id/R.768cdb94accc7b4949919ac2f58cfc71?rik=IrtuX1L0mvSMTw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f5PaCHum.jpg&ehk=1wkpazwC51JIrHxTVWx%2fDWrb8Rb67RD24oSrKA5TnsA%3d&risl=&pid=ImgRaw&r=0">
+            <h4>
+              <a href="https://peanutvkd.github.io/Drive-Safely/">Drive Safley</a>
+            </h4>
+            <p>A Multi-page website created with HTML, JavaScript, and CSS to assist students in acquiring their driver's license.</p>
+          </div>
+                    <div class="card2">
+            <img src="https://th.bing.com/th/id/R.768cdb94accc7b4949919ac2f58cfc71?rik=IrtuX1L0mvSMTw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f5PaCHum.jpg&ehk=1wkpazwC51JIrHxTVWx%2fDWrb8Rb67RD24oSrKA5TnsA%3d&risl=&pid=ImgRaw&r=0">
+            <h4>
+               <a href="https://game-jam-veronica-d-feverdream.replit.app/">Fever Dream</a>
+            </h4>
+            <p>A chaotic adventure game set inside a dream. Leveraging the P5 JavaScript library, the game has an avatar selection screen, multiple levels, and different game modes. </p>
+          </div>
+                    <div class="card2">
+            <img src="https://th.bing.com/th/id/R.768cdb94accc7b4949919ac2f58cfc71?rik=IrtuX1L0mvSMTw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f5PaCHum.jpg&ehk=1wkpazwC51JIrHxTVWx%2fDWrb8Rb67RD24oSrKA5TnsA%3d&risl=&pid=ImgRaw&r=0">
+            <h4>
+              <a href="https://collection-style-game-veronica-d.replit.app/">Wimbledon - A Grand Slam Champion</a>
+            </h4>
+            <p>A catch style game inspired by  tennis tournaments. The game is made utilizing the P5 JavaScript library and includes multiple game modes. </p>
+          </div>
+                              <div class="card2">
+            <img src="https://th.bing.com/th/id/R.768cdb94accc7b4949919ac2f58cfc71?rik=IrtuX1L0mvSMTw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f5PaCHum.jpg&ehk=1wkpazwC51JIrHxTVWx%2fDWrb8Rb67RD24oSrKA5TnsA%3d&risl=&pid=ImgRaw&r=0">
+            <h4>
+              <a href="https://scratch.mit.edu/projects/529573606/">Clicker Cat Cafe</a>
+            </h4>
+            <p>A mouse-controlled game set inside a cat cafe. Created using Scratch, it has multiple in-game upgrades and over 30 different sprites. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Contact ME-->
+    <main>
+		<section class="section-contact">
+			<div class="container">
+        <h1 id="contact_me"><strong>Contact Me!</strong></h1>
+				<p>Fill out the form below to get in touch with one me. I will try to get back to you within 48 hours.</p>
+
+				<form         action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="399fb783-0395-4cb3-9376-75087edf21b7">
+					<div class="form-group">
+						<label for="firstname">First name*</label>
+						<input 
+							type="text" 
+							name="firstname" 
+							id="firstname" 
+							required 
+							class="form-element"
+							placeholder="Jane" />
+					</div>
+					<div class="form-group">
+						<label for="lastname">Last name*</label>
+						<input type="text" name="lastname" id="lastname" required class="form-element" placeholder="Doe" />
+					</div>
+					<div class="form-group">
+						<label for="email">Email address*</label>
+						<input type="email" name="email" id="email" required class="form-element" placeholder="jane.doe@example.com" />
+					</div>
+					<div class="form-group">
+						<label for="company">Company</label>
+						<input type="text" name="company" id="company" class="form-element" placeholder="jane.doe@example.com" />
+					</div>
+					<div class="form-group full">
+						<label for="message">What are you looking for?</label>
+						<textarea name="message" id="message" class="form-element" placeholder="I am writing about..."></textarea>
+					</div>
+					<div class="submit-group">
+						<button type="submit">Submit Form</button> 
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+    
+  </body>
+</html>
