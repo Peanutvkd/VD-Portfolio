@@ -549,7 +549,7 @@ padding-top: 20px;
 .section-contact {
   min-height: 100vh;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   background-image: linear-gradient(175deg, white 50%, rgba(0, 172, 193, 1) 50%, rgba(84, 58, 183, 1));
 }
 
@@ -565,7 +565,6 @@ padding-top: 20px;
   .section-contact .container4 {
     padding-left: 64px;
     padding-right: 64px;
-    padding-bottom: 50px;
   }
 }
 
@@ -573,7 +572,6 @@ padding-top: 20px;
   .section-contact .container4 {
     padding-left: 128px;
     padding-right: 128px;
-    padding-bottom: 50px;
   }
 }
 
