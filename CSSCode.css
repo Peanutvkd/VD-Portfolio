@@ -545,23 +545,15 @@ padding-top: 20px;
   }
   
 }
-* {
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-
-	font-family: 'Fira Sans', sans-serif;
-}
 
 .section-contact {
 	min-height: 100vh;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-image: -o-linear-gradient(275deg, white 50%, rgba(0, 172, 193, 1) 50%, rgba(84, 58, 183, 1));
 	background-image: linear-gradient(175deg, white 50%, rgba(0, 172, 193, 1) 50%, rgba(84, 58, 183, 1));
 
 	.container {
+         display: grid;
 		max-width: 1280px;
 		margin: 0 auto;
 		padding-left: 32px;
@@ -589,27 +581,25 @@ padding-top: 20px;
 			font-size: 18px;
 			line-height: 1.5;
 			margin-bottom: 32px;
-			text-align: center;
+      text-align: center;
 		}
 
 		form {
-			display: -ms-grid;
 			display: grid;
-			-ms-grid-columns: 1fr;
 			grid-template-columns: 1fr;
 			grid-gap: 16px;
 			background-color: #9AD0FF;
 			padding: 32px;
 			border-radius: 16px;
-			-webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-			        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+			box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 
 			@media (min-width: 768px) {
-			grid-template-columns: repeat(2, 1fr);
+            display: grid;
+				grid-template-columns: repeat(2, 1fr);
 			}
 
 			.form-group {
-
+     display: grid;
 				&.full {
 					grid-column: 1 / -1;
 				}
@@ -622,9 +612,7 @@ padding-top: 20px;
 				}
 
 				.form-element {
-					-webkit-appearance: none;
-					   -moz-appearance: none;
-					        appearance: none;
+					appearance: none;
 					outline: none;
 					border: none;
 
@@ -634,13 +622,10 @@ padding-top: 20px;
 					border-radius: 8px;
 					padding: 12px 16px;
 					background-color: #F3F3F3;
-					-webkit-transition: 0.4s;
-					-o-transition: 0.4s;
 					transition: 0.4s;
 
 					&:focus {
-						-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
-						        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+						box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 						background-color: #FFF;
 					}
 				}
@@ -652,6 +637,7 @@ padding-top: 20px;
 			}
 
 			.submit-group {
+            
 				grid-column: 1 / -1;
 				text-align: right;
 
@@ -664,13 +650,8 @@ padding-top: 20px;
 					padding: 12px 16px;
 					background-color: #004274;
 					border-radius: 8px;
-					-webkit-appearance: none;
-       					-moz-appearance: none;
-        				appearance: none;
 					color: #FFF;
 					cursor: pointer;
-					-webkit-transition: 0.4s;
-					-o-transition: 0.4s;
 					transition: 0.4s;
 
 					&:hover {
