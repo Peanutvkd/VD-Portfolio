@@ -270,6 +270,8 @@ a {
 
 .hire__me {
   background-color: #004274;
+}
+.hire_me a{
   color: #ffffff;
 }
 
@@ -277,7 +279,7 @@ a {
   background-color: #9AD0FF;
 }
 
-.portfolio {
+.portfolio a{
   color: #004274;
 }
 
