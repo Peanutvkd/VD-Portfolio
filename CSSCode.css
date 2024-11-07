@@ -547,6 +547,7 @@ padding-top: 20px;
 }
 
 .section-contact {
+  display: inline-block; 
   min-height: 100vh;
   padding-top: 100px;
   padding-bottom:  200px;
